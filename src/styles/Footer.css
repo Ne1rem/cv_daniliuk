@@ -1,0 +1,66 @@
+.footerName{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footerSocialMedias{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.footerNameSurname{
+    font-size: 40px;
+}
+.footerPosition{
+    font-size: 25px;
+    .footerSpan{
+        color: var(--hover-color);
+    }
+}
+.footerSocialMedias{
+p{
+    font-size: 20px;
+}
+    .footer-social-icons{
+        display: flex;
+        gap: 10px;
+    }
+    .footer-svg-icons:hover{
+        transform: scale(1.2);
+    }
+}
+
+.contactMe{
+    color: var(--white-color);
+    padding: 10px;
+    font-size: 30px;
+    background-color: var(--navigation-color);
+}
+
+.contactMe:hover{
+    color: var(--hover-color);
+    background-color: var(--main-color);
+}
+
+.footerPhones{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    .footer-contact{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        .phoneFoot{
+            color: var(--white-color);
+        }
+        .phoneFoot:hover{
+            color: var(--hover-color);
+        }
+    }
+}

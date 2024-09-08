@@ -1,0 +1,19 @@
+.navigation{
+ background-color: var(--navigation-color);
+ top: 10em;
+ position: fixed;
+ display: inline-block;
+ padding: 0.5em;
+ border-radius: 20px;
+ left: 5%;
+}
+
+.navigationList{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.navText{
+color: var(--white-color)
+}

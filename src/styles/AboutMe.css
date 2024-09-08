@@ -1,0 +1,43 @@
+.TitleAbout {
+    text-align: center;
+}
+
+.divText {
+    margin: 30px 0px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+    .textPart{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .MeImage{
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+    }
+    .MyName{
+        text-align: center;
+    }
+}
+.hardSkillsAbout{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.skillsTechn{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.skil {
+    font-size: 20px;align-items: center;
+    
+    display: flex; flex-direction: row; gap: 15px;
+}
+.techLogo {
+    width: 32px;
+    height: 32px;
+  }
+  

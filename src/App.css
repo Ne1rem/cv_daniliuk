@@ -1,0 +1,14 @@
+
+.container {
+  max-width: 1440px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.footer {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  background-color: #1e4776;
+  color: #ffffff;
+}
