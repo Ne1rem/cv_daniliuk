@@ -1,12 +1,14 @@
 {
   "files": {
     "main.css": "/cv_daniliuk/static/css/main.968630e9.css",
-    "main.js": "/cv_daniliuk/static/js/main.53a399df.js",
+    "main.js": "/cv_daniliuk/static/js/main.f2a1dcd1.js",
     "static/media/jewelqueen.png": "/cv_daniliuk/static/media/jewelqueen.09f96d4d82f1a7c1c36e.png",
+    "static/media/web_studio.png": "/cv_daniliuk/static/media/web_studio.15887841e3b036c6e0d3.png",
     "static/media/carptravel.png": "/cv_daniliuk/static/media/carptravel.1b7b063a690181d2382d.png",
     "static/media/apenft.png": "/cv_daniliuk/static/media/apenft.f846f4401491f3ae5cbd.png",
     "static/media/tastytreats.png": "/cv_daniliuk/static/media/tastytreats.c9a5b3fd55f408681f51.png",
     "static/media/vesta.jpg": "/cv_daniliuk/static/media/vesta.01778384b14a99f17eed.jpg",
+    "static/media/psychologists.png": "/cv_daniliuk/static/media/psychologists.624fe928b63b8ca803b0.png",
     "static/media/superfood.jpg": "/cv_daniliuk/static/media/superfood.c3287499d0f9142efaae.jpg",
     "static/media/me.jpg": "/cv_daniliuk/static/media/me.6892bec8325335e657b8.jpg",
     "static/media/readjourney.png": "/cv_daniliuk/static/media/readjourney.6aaf72bdf88139cced3a.png",
@@ -23,10 +25,10 @@
     "static/media/tailwind.svg": "/cv_daniliuk/static/media/tailwind.973c73e85d4daa24b257ba20298716c4.svg",
     "static/media/html.svg": "/cv_daniliuk/static/media/html.0c8899975fbb5345002df9b408db0cc0.svg",
     "main.968630e9.css.map": "/cv_daniliuk/static/css/main.968630e9.css.map",
-    "main.53a399df.js.map": "/cv_daniliuk/static/js/main.53a399df.js.map"
+    "main.f2a1dcd1.js.map": "/cv_daniliuk/static/js/main.f2a1dcd1.js.map"
   },
   "entrypoints": [
     "static/css/main.968630e9.css",
-    "static/js/main.53a399df.js"
+    "static/js/main.f2a1dcd1.js"
   ]
 }
