@@ -7,6 +7,8 @@ import apeNftImg from "../images/apenft.png";
 import readJourneyImg from "../images/readjourney.png";
 import simplyChocolateImg from "../images/simplychocolate.jpg";
 import jewelQueenImg from "../images/jewelqueen.png";
+import webstudio from "../images/web_studio.png";
+import psychologists from "../images/psychologists.png";
 
 const projects = [
   {
@@ -72,6 +74,20 @@ const projects = [
     ogImage: jewelQueenImg,
     url: "https://jewel-queen.onrender.com/",
   },
+  {
+    projectName: "Web Studio",
+    technologests: ["HTML/CSS"],
+    technologies: "Technologies",
+    ogImage: webstudio,
+    url: "https://ne1rem.github.io/goit-hw-markup-07/",
+  },
+  {
+    projectName: "Psychologists Services",
+    technologests: ["React"],
+    technologies: "Technologies",
+    ogImage: psychologists,
+    url: "https://ne1rem.github.io/psychologists",
+  }
 ];
 
 export default projects;

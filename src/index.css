@@ -1,7 +1,6 @@
 @import 'normalize.css';
 
 :root {
-  /* colors */
   --main-color: rgb(113, 59, 220);
   --navigation-color: rgba(113, 59, 220, 0.51);
   --background-color:rgb(120, 113, 248);
