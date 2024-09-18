@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/AboutMe.css";
-import me from "../assets/images/me.jpg";
+import me from "../assets/images/imageproj/me.jpg";
 
 import HTML from "../assets/images/techn/html.svg";
 import CSS from "../assets/images/techn/css.svg";
