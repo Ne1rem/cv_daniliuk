@@ -15,5 +15,10 @@
 }
 
 .navText{
-color: var(--white-color)
+    cursor: pointer;
+    color: var(--white-color);
+    transition: color 0.3s ease-in-out;
+}
+.navText:hover{
+    color: rgb(137, 255, 3);
 }

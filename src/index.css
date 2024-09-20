@@ -10,9 +10,6 @@
   --hover-color: rgb(163, 143, 255);
 }
 
-html {
-  scroll-behavior: smooth;
-}
 
 body {
   margin: 40px 0;

@@ -41,6 +41,7 @@ const projects = [
     technologests: ["React", "Node js"],
     technologies: "Technologies",
     ogImage: healthyHubImg,
+    gifImage: healthyHubImg,
     url: "https://ne1rem.github.io/food_diary/ ",
   },
   {
@@ -72,6 +73,7 @@ const projects = [
     technologests: ["Next js", "Tailwind"],
     technologies: "Technologies",
     ogImage: readJourneyImg,
+    gifImage: readJourneyImg,
     url: "https://read-journey-seven.vercel.app/",
   },
   {
@@ -103,6 +105,7 @@ const projects = [
     technologests: ["React"],
     technologies: "Technologies",
     ogImage: psychologists,
+    gifImage: psychologists,
     url: "https://ne1rem.github.io/psychologists",
   }
 ];

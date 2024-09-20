@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import "../styles/Navigation.css";
 
 function Navigation() {
@@ -6,19 +7,34 @@ function Navigation() {
     <nav className="navigation">
       <ul className="navigationList">
         <li>
-          <a href="#about" className="navText">
-            Обо мне
-          </a>
+          <Link
+            to="about"
+            smooth={true}
+            duration={500}
+            className="navText"
+          >
+            About me
+          </Link>
         </li>
         <li>
-          <a href="#projects" className="navText">
-            Проекты
-          </a>
+          <Link
+            to="projects"
+            smooth={true}
+            duration={500}
+            className="navText"
+          >
+            My projects
+          </Link>
         </li>
         <li>
-          <a href="#contact" className="navText">
-            Контакты
-          </a>
+          <Link
+            to="contact"
+            smooth={true}
+            duration={500}
+            className="navText"
+          >
+            Contacts
+          </Link>
         </li>
       </ul>
     </nav>
