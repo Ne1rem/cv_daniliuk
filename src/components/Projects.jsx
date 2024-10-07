@@ -1,9 +1,17 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import '../styles/Projects.css';
 import projects from '../assets/data/projects';
 
 function Projects() {
   const [hoveredIndex, setHoveredIndex] = useState(null);
+  const [visibleProjects, setVisibleProjects] = useState([]);
+
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setVisibleProjects(projects.map((_, index) => index)); // Make all projects visible
+    }, 100); // Delay to ensure transition occurs
+    return () => clearTimeout(timeout);
+  }, []);
 
   return (
     <section id="projects" className="container">
@@ -12,7 +20,7 @@ function Projects() {
         {projects.map((project, index) => (
           <li
             key={index}
-            className="project"
+            className={`project ${visibleProjects.includes(index) ? 'appear' : ''}`}
             onMouseEnter={() => setHoveredIndex(index)}
             onMouseLeave={() => setHoveredIndex(null)}
           >
